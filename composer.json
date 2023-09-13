@@ -1,0 +1,21 @@
+{
+    "name": "icaro/teste-crud",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "src/"
+        },
+        "files" : [
+            "src/Config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Ícaro Teodoro",
+            "email": "icaro.teodoro84@gmail.com"
+        }
+    ],
+    "require": {
+        "coffeecode/router": "^2.0",
+        "coffeecode/datalayer": "^2.0"
+    }
+}
